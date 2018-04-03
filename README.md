@@ -1,4 +1,4 @@
-# vcf-liftover: A tool to convert genome coordinates using liftOver.
+# vcf-liftover: A tool to convert VCF genome coordinates using liftOver.
 
 The tool reads VCF from stdin and outputs to stdout.
 
