@@ -13,7 +13,7 @@ while(<>){
     print $_;
   }else{
     if($bodystart == 0){
-      my $cmd = "| liftOver -bedPlus=3 /dev/stdin " . $chain . " /dev/stdout " . $unmap . " | cut -f1,3- ";
+      my $cmd = "| liftOver -minMatch=1 -bedPlus=3 /dev/stdin " . $chain . " /dev/stdout " . $unmap . " | cut -f1,3- ";
       open $LIFT, $cmd or die;
     }
     @F = split '\t';
