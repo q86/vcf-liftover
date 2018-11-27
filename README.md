@@ -13,3 +13,5 @@ Here is an example:
 ```shell
  zcat test.vcf.gz | ./vcf-liftover GRCh37_to_GRCh38.chain.gz
 ```
+
+Chain files downloaded from [http://crossmap.sourceforge.net/].
